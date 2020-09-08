@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<!--
+    Developped by : Martin Vibert,
+    Date: 01/09/2020,
+    Name of the project: InstantDeveloppement
+-->
+    <head>
+    	<title>Martin Vibert</title>
+    	<meta charset="utf-8">
+      <meta content="width=device-width, initial-scale=1.0" name="viewport">
+      <meta content="ie=edge" http-equiv="X-UA-Compatible">
+      <link rel="stylesheet" href="style.css">   
+      <link href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" rel="stylesheet"><!--Font awesome--> 	
+    </head>
+
+    <body>
+<!--    /* border: 1px solid rgba(0,0,0,.125); -->
+
+    	<header>
+
+          <div id="backgroundHeader"></div><!--Fond d'écran du menu-->
+
+          <div id="bef">InstantDeveloppement - Creation de sites internets</div><!--Banderole-->
+
+          <nav>
+              <ul>
+                  <li><a href="index.html"><span class="letter">A</span>ccueil</a>
+                  <li><a href="portfolio.html" class="here"><span class="letter">P</span>ortfolio</a>
+                  <li><a href="mailto:instantdeveloppement.fr@gmail.com"><span class="letter">C</span>ontact</a>
+              </ul>
+          </nav>
+          
+    	</header>
+       <section><!--Hobbies-->
+          <h1>InstantDeveloppement c'est tout d'abord</h1>
+          <div class="avantages">
+              <div class="section-avantages">
+                  <i class="fas fa-users-cog"></i>
+                  <h2>Une équipe à votre écoute</h2>
+                  <p class="paraAvantages"><span class="word_one">N</span>otre équipe est à votre sécoute quelque sois la demande pour que vous ayez un qualité de <span class="word">service optimale.</span></p>
+                  <p><a href="mailto:instantdeveloppement.fr@gmail.com"><span class="button-avantages" onclick="mostButtonClickOne()">Plus </span></a></p>
+              </div>
+              <div class="section-avantages">
+                  <i class="fas fa-money-check-alt"></i>
+                  <h2>Des produits à tarifs réduits</h2>
+                  <p class="paraAvantages"><span class="word_one">N</span>ous reduisons au maximum le tarif de nos produits pour qu'ils soivent accessibles a tous dans les <span class="word">meilleurs conditions.</span></p>
+                  <p><a href="mailto:instantdeveloppement.fr@gmail.com"><span class="button-avantages" onclick="mostButtonClickOne()">Plus </span></a></p>
+              </div>
+              <div class="section-avantages">
+                  <i class="fas fa-calendar-check"></i>
+                  <h2>Un service disponible 24h/24</h2>
+                  <p class="paraAvantages"><span class="word_one">N</span>otre service est disponible à tout moment de votre journée pour répondre à vos besoins dans les <span class="word">meilleurs délais.</span></p>
+                  <p><a href="mailto:instantdeveloppement.fr@gmail.com"><span class="button-avantages" onclick="mostButtonClickOne()">Plus </span></a></p>
+              </div>
+          </div>
+      </section>
+      <!--<div id="backgroundSection"></div>-->
+      <button id="myScroll" title="Go to top" onclick="clickTop()"><i class="fas fa-angle-up"></i></button><!--Top button-->
+      <section><!--Level-->
+          <h1>Nos ventes 2020</h1>
+          <div class="project">
+              <div class="section-project">
+                  <img src="web-projet-3-1.png" class="image_other" alt="projet 1"/>
+              </div>
+              <div class="section-project">
+                  <img src="web-projet-3.png" class="image_center" alt="projet 2"/>
+              </div>
+              <div class="section-project">
+                  <img src="web-projet-3-2.png" class="image_other" alt="projet 3"/>
+              </div>
+          </div>
+      </section>
+      
+      <section><!--Offre-->
+          <h1>Decouvrez nos offres actuelles !</h1>
+          <div class="offer">
+              <div class="section-offer">
+                  <i class="fas fa-laptop-code"></i>
+                  <h2>Site vitrine</h2>
+                  <p><span class="word">(49.99€/2 semaines <i class="fas fa-clock" class="time"></i>)</span></p>
+                  <p class="paraOffer"><span class="word_one">U</span>n site vitrine permet de présenter <span class="word">l'activité</span> de votre entreprise on ne peut pas y faire des <span class="word">transactions</span>.</p>
+                  <p class="paraOfferCheck"><i class="far fa-check-square"></i> Configuration de la mise en ligne.<br /><i class="far fa-check-square"></i> Aide disponible 10 jours après la commande terminée.</p>
+                  <p><a href="mailto:instantdeveloppement.fr@gmail.com"><span class="button-offer" onclick="mostButtonClickOne()">Commander </span></a></p>
+              </div>
+              <div class="section-offer">
+                  <i class="fas fa-hdd"></i>
+                  <h2>Site marchand</h2>
+                  <p><span class="word">(99.99€/1 mois <i class="fas fa-clock" class="time"></i>)</span></p>
+                  <p class="paraOffer"><span class="word_one">U</span>n site marchand est un site ou les visiteurs peuvent <span class="word">payer des produits</span>/et ou des <span class="word">services</span> comme amazon.</p>
+                  <p class="paraOfferCheck"><i class="far fa-check-square"></i> Configuration de la mise en ligne.<br /><i class="far fa-check-square"></i> Nom de domaine (surplus de 4.99).<br /><i class="far fa-check-square"></i> Aide disponible 20 jours après la commande terminée.</p>
+                  <p><a href="mailto:instantdeveloppement.fr@gmail.com"><span class="button-offer" onclick="mostButtonClickOne()">Commander </span></a></p>
+              </div>
+              <div class="section-offer">
+                  <i class="fas fa-blog"></i>
+                  <h2>Site de blog</h2>
+                  <p><span class="word">(39.99€/2 semaines <i class="fas fa-clock" class="time"></i>)</span></p>
+                  <p class="paraOffer"><span class="word_one">U</span>n blog est un site internet ou l'internaute <span class="word">publie</span> régulierement des articles bien souvent sur sa <span class="word">vie personnel</span>.</p>
+                  <p class="paraOfferCheck"><i class="far fa-check-square"></i> Configuration de la mise en ligne.<br /><i class="far fa-check-square"></i> Aide disponible 10 jours après la commande terminée.</p>
+                  <p><a href="mailto:instantdeveloppement.fr@gmail.com"><span class="button-offer" onclick="mostButtonClickOne()">Commander </span></a></p>
+              </div>
+          </div>
+      </section>
+      
+      <!--<div id="backgroundFooter">Autres projets</div>-->
+      <footer><!--Pied de page-->
+        <div id="footer-container">
+            <div id="footer-infos">
+                
+                <div id="footer-infos-corps">
+                    <ul>
+                            <li>
+                                <p>
+                            
+                                <a href="mail:martin.fr@gmail.com" class="gmail-liens"><i class="fas fa-envelope"></i></a>
+                                                       
+                                <a href="https://www.instagram.com/martin_vbr/" class="insta-liens"><i class="fab fa-instagram"></i><a>
+
+                               </p>
+                            </li>            
+                            <li>
+                                <p>© 2020 Martin Vibert - Création de site internet le Mans (72) <br />Tous droits reservés<br />Réalisation: <span class="footer_letter">Martin Vibert</span></p>
+ 
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--Javascript-->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <!--Jquery CDN-->
+    <script type="text/javascript" src="app.js"></script><!--App-->
+
+    
+    </body>
+
+
+</html>
