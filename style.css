@@ -322,6 +322,9 @@ footer{
   section .avantages .section-avantages {    
     margin-bottom: 65px;
   }
+  section .avantages i {
+    font-size: 39px;
+  }
   /*Project*/
   section .project {
     display: block;
