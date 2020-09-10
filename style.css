@@ -191,7 +191,7 @@ section .offer .section-offer {
   margin-right: 25px;
   padding-top: 20px;
   padding-bottom: 20px;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0px 0.5px 2px 0px #C30C04;
   transition: 0.3s;
 }
 
