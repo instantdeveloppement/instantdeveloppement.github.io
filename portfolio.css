@@ -226,10 +226,31 @@ section .level .section-level .button-level:hover {
   background: #C30C04;
   color: #fff;
 }
-
 section .level a {
   text-decoration: none;
-
+}
+section .level .section-level .container-skills {
+  background-color: #ddd;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+section .level .section-level .container-skills .skills{
+  text-align: right;
+  color: white;
+  font-size: 11.3px;
+  padding: 2px;
+}
+section .level .section-level .container-skills .python {
+  width: 70%; 
+  background-color: #C30C04;
+}
+section .level .section-level .container-skills .php {
+  width: 60%; 
+  background-color: #C30C04;
+}
+section .level .section-level .container-skills .web {
+  width: 90%; 
+  background-color: #C30C04;
 }
 
 /*Pied de page*/
