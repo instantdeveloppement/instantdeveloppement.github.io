@@ -15,9 +15,7 @@ body{
   outline: none;
   color: white;
   cursor: pointer;
-  background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, #fff), color-stop(1, #52d3aa));
-  background-image: -webkit-repeating-linear-gradient(top left, #fff 0%, #C30C04 100%);
-  background-image: repeating-linear-gradient(to bottom right, #fff 0%, #C30C04 100%);     padding: 15px;
+  background-color: #C30C04;
   padding-bottom: 5px;
   padding-top: 5px;
   border-radius: 20px;
